@@ -15,10 +15,10 @@ def mostrar_resultados_idf(duraciones_min: list, preci_prom: float, region: str)
     T_actual = None
     for T, dur_h, valor in res_idf:
         if T != T_actual:
-            msj += f"\nPERÍODO DE RETORNO Tr = {T} años\n"
+            msj += f"\nPERIODO DE RETORNO Tr = {T} anios\n"
             msj += "-" * 40 + "\n"
             T_actual = T
 
-        msj += f"Duración: {round(dur_h, 2)} h | IDF: {round(valor, 3)}\n"
+        msj += f"Duracion: {round(dur_h, 2)} h | IDF: {round(valor, 3)}\n"
 
     return msj
