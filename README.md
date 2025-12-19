@@ -81,14 +81,3 @@ python show_caudal.py
 - Verifica consistencia de unidades: `I` en mm/h y `A` en km2 (tal como se usa en la formula con 0.278).
 - Los parametros regionales deben corresponder a la region y a la fuente metodologica adoptada.
 
-## Nota de codificacion (acentos/ni)
-
-Este repositorio esta en **UTF-8**. Si en Windows PowerShell ves caracteres extranos, ejecuta `chcp 65001` antes de imprimir archivos o revisa el README desde tu editor (p. ej., VS Code).
-
-Sugerencia (PowerShell):
-
-```powershell
-chcp 65001
-$OutputEncoding = [System.Text.UTF8Encoding]::new()
-[Console]::OutputEncoding = [System.Text.UTF8Encoding]::new()
-```
